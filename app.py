@@ -44,7 +44,7 @@ skills_data = {
     ]
 }
 
-# 🤖 Function (same as yours)
+# 🤖 Function
 def get_skill_solution(skill):
     skill = skill.lower()
 
@@ -66,7 +66,7 @@ def get_skill_solution(skill):
     return steps, video_link
 
 
-# 🧠 User Input (Streamlit style)
+# 🧠 User Input
 query = st.text_input("🤖 Aap kya seekhna chahte hain?")
 
 if st.button("Search"):
@@ -87,4 +87,8 @@ if st.button("Search"):
     if video:
         st.video(video)
     else:
-        st.error("I Am Sorry Video not found. Please check your internet connection.")
+        # 🔥 fallback (important fix)
+        fallback_link = f"https://www.youtube.com/results?search_query={query}+tutorial"
+        st.warning("⚠️ Direct video load nahi ho paaya, yahan se dekh sakte ho 👇")
+        st.markdown(f"[👉 Click here to watch videos]({fallback_link})")
+
