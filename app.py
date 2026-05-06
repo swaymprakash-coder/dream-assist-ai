@@ -52,7 +52,6 @@ def get_skill_solution(skill):
         steps = skills_data[skill]
     else:
         steps = [
-           steps = [
     "🤖 Is topic ke liye main aapko simple aur useful guidance de raha hoon👇",
     "🎥 Saath Hi Ek Best Learning Video Ka Link Bhi Add kiya hai 👇"
 ]
