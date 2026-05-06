@@ -52,9 +52,10 @@ def get_skill_solution(skill):
         steps = skills_data[skill]
     else:
         steps = [
-            "🤖 I couldn't find structured steps for this query.",
-            "🎥 But don't worry! I found a helpful video that can guide you.."
-        ]
+           steps = [
+    "🤖 Is topic ke liye main aapko simple aur useful guidance de raha hoon 👇",
+    "🎥 Saath Hi Ek Best Learning Video Ka Link Bhi Add kiya hai 👇"
+]
 
     try:
         videosSearch = VideosSearch(skill + " tutorial for beginners", limit=1)
@@ -89,6 +90,6 @@ if st.button("Search"):
     else:
         # 🔥 fallback (important fix)
         fallback_link = f"https://www.youtube.com/results?search_query={query}+tutorial"
-        st.warning("⚠️ Direct video load nahi ho paaya, yahan se dekh sakte ho 👇")
+        st.warning("🎥 Aapke liye video link ready hai Please Link Pr Click Kare 👇")
         st.markdown(f"[👉 Click here to watch videos]({fallback_link})")
 
