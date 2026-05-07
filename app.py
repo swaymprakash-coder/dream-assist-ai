@@ -68,7 +68,7 @@ def get_skill_solution(skill):
 
 
 # 🧠 User Input
-query = st.text_input("🤖 Aap kya seekhna chahte hain?")
+query = st.text_input("🤖 Aap kya seekhna chahte hain? ---> YAA Apni Chat Close Karne Ke Liye Type Exit")
 
 if st.button("Search"):
 
