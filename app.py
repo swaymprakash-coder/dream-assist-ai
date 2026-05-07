@@ -1,3 +1,4 @@
+import urllib.parse
 import streamlit as st
 from youtubesearchpython import VideosSearch
 
@@ -88,7 +89,7 @@ if st.button("Search"):
         st.video(video)
     else:
         # 🔥 fallback (important fix)
-        fallback_link = f"https://www.youtube.com/results?search_query={query}+tutorial"
+        fallback_link = fallback_link = f"https://www.youtube.com/results?search_query={urllib.parse.quote(query + ' tutorial')}"
         st.warning("🎥 Aapke liye video link ready hai Please Link Pr Click Kare 👇")
         st.markdown(f"[👉 Click here to watch videos]({fallback_link})")
 
