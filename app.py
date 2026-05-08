@@ -14,7 +14,18 @@ st.sidebar.info("Powered by Dream Global Tech")
 # WELCOME MESSAGE
 st.title("🤖 Dream Assist AI")
 st.write("Learn Skills • Solve Problems • Grow 🚀")
+st.divider()
 
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.success("📚 Learning Roadmaps")
+
+with col2:
+    st.info("🎥 YouTube Tutorials")
+
+with col3:
+    st.warning("🤖 Beginner Friendly")
 # About Section
 st.subheader("🤖 About Dream Assist AI")
 st.write("Dream Assist AI is a smart assistant designed to help you learn new skills and solve real-life problems easily.")
