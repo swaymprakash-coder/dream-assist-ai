@@ -8,7 +8,7 @@ st.set_page_config(
 )
 st.sidebar.title("🚀 Dream Assist AI")
 
-st.sidebar.write("Learn • Grow • Build")
+st.sidebar.write("Learn Skills • Solve Problems • Grow 🚀")
 
 st.sidebar.info("Powered by Dream Global Tech")
 # WELCOME MESSAGE
