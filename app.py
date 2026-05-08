@@ -6,7 +6,11 @@ st.set_page_config(
     page_icon="🤖",
     layout="wide"
 )
+st.sidebar.title("🚀 Dream Assist AI")
 
+st.sidebar.write("Learn • Grow • Build")
+
+st.sidebar.info("Powered by Dream Global Tech")
 # WELCOME MESSAGE
 st.title("🤖 Dream Assist AI")
 st.write("Learn Skills • Solve Problems • Grow 🚀")
