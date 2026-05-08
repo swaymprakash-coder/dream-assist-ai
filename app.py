@@ -1,6 +1,11 @@
 import urllib.parse
 import streamlit as st
 from youtubesearchpython import VideosSearch
+st.set_page_config(
+    page_title="Dream Assist AI",
+    page_icon="🤖",
+    layout="wide"
+)
 
 # WELCOME MESSAGE
 st.title("🤖 Dream Assist AI")
