@@ -12,8 +12,13 @@ st.sidebar.write("Learn Skills • Solve Problems • Grow 🚀")
 
 st.sidebar.info("Powered by Dream Global Tech")
 # WELCOME MESSAGE
-st.title("🤖 Dream Assist AI")
-st.write("Learn Skills • Solve Problems • Grow 🚀")
+st.markdown("""
+# 🚀 Dream Assist AI
+
+### Learn Skills • Solve Problems • Grow Faster
+
+Your Personal AI Learning Assistant 🤖
+""")
 st.divider()
 
 col1, col2, col3 = st.columns(3)
