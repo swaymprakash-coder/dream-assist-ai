@@ -11,7 +11,7 @@ st.sidebar.title("🚀 Dream Assist AI")
 st.sidebar.write("Learn Skills • Solve Problems • Grow 🚀")
 
 st.sidebar.info("Powered by Dream Global Tech")
-st.image("logo.png.", width=140)
+st.image("logo.png.png", width=140)
 # WELCOME MESSAGE
 st.markdown("""
 # 🚀 Dream Assist AI
