@@ -117,4 +117,6 @@ if st.button("Search"):
         fallback_link = fallback_link = f"https://www.youtube.com/results?search_query={urllib.parse.quote(query + ' tutorial')}"
         st.warning("🎥 Aapke liye video link ready hai Please Link Pr Click Kare 👇")
         st.markdown(f"[👉 Click here to watch videos]({fallback_link})")
+st.divider()
 
+st.caption("© 2026 Dream Global Tech | Dream Assist AI")
