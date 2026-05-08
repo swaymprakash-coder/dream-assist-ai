@@ -17,7 +17,7 @@ st.markdown("""
 
 ### Learn Skills • Solve Problems • Grow Faster
 
-Your Personal AI Learning Assistant 🤖
+Your Personal AI Guiding Assistant 🤖
 """)
 st.divider()
 
